@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="eye">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>__PRODUCT_NAME__</title>
+<style>/*@include reader.css*/
+/*@include reader-upgrade.css*/</style>
+</head>
+<body>
+<a class="skip" href="#results">跳转到条目列表</a>
+<header class="top" id="top">
+  <div class="top-in">
+    <button id="menuButton" class="icon-button mobile-only" aria-label="打开分区和日期" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <div class="brand-mini"><b id="brandTitle">__PRODUCT_NAME__</b><small id="brandSub"></small><span id="crumb" hidden>全部条目</span></div>
+    <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="名称、编号、拼音首字母、原名、标签、作者…" aria-label="搜索条目" autocomplete="off"><kbd>/</kbd></label>
+    <button hidden class="pwd-chip" id="pwdChip" title="点一下复制顶部提示"><span>顶部提示</span><b id="pwdText"></b></button>
+    <div class="top-actions">
+      <span class="offline-dot">数据离线可用</span>
+      <div class="view-toggle" role="group" aria-label="切换显示方式"><button id="listView" aria-pressed="true" title="一条一行，带封面">☰ 列表</button><button id="compactView" aria-pressed="false" title="不带封面，一屏看更多">≡ 紧凑</button><button id="gridView" aria-pressed="false" title="只看封面">▦ 封面墙</button></div>
+      <div class="theme-switch" id="themeSwitch" role="group" aria-label="主题">
+        <button type="button" data-theme-set="pink" title="粉色">粉</button>
+        <button type="button" data-theme-set="eye" title="护眼绿">绿</button>
+        <button type="button" data-theme-set="warm" title="暖色">暖</button>
+        <button type="button" data-theme-set="dark" title="深色">夜</button>
+        <button type="button" data-theme-set="light" title="浅色">浅</button>
+      </div>
+      <button hidden class="icon-button" id="refreshBackground" type="button" title="换背景" aria-label="换背景">↻</button>
+      <label id="mobileBlurLabel" class="check-label"><input type="checkbox" id="blurToggle" checked>背景面板模糊</label>
+      <button hidden class="icon-button" id="help" aria-label="使用指南">?</button>
+      <button class="take-open" id="takeOpen" title="攒下要下载的条目，按网盘文件夹排好">拿取清单<b id="takeCount">0</b></button>
+    </div>
+    <button class="icon-button mobile-only" id="mobileOpts" aria-expanded="false" aria-label="显示方式、主题和背景">⚙</button>
+  </div>
+  <div class="filter-bar">
+    <div class="lang-seg" id="transSeg" role="group" aria-label="版本类型"></div>
+    <label class="check-label chip-check"><input type="checkbox" id="onlyUpdated">只看更新</label>
+    <button id="filterToggle" class="secondary" aria-expanded="false" aria-controls="filters">更多筛选 <span id="filterCount">0</span></button>
+    <select id="sort" aria-label="排序方式">
+      <option value="recent">最近收录（按批次）</option>
+      <option value="updated">最近更新（按更新日期）</option>
+      <option value="row">按表格行顺序</option>
+      <option value="name">名称 A–Z</option>
+      <option value="code">编号</option>
+      <option value="size">大小从小到大</option>
+      <option value="size-desc">大小从大到小</option>
+    </select>
+    <label class="follow-toggle" title="开着时，搜索和筛选这一栏跟着页面往下走"><input type="checkbox" id="followTop"> 📌 跟随滚动</label>
+    <button class="text-button top-jump" id="topJump" title="回到最上面">↑ 顶部</button>
+    <button class="text-button top-jump" id="kbHelp" title="键盘快捷键（按 ? 也能打开）">⌨ 快捷键</button>
+  </div>
+  <div id="activeFilters" class="active-filters" aria-label="当前筛选条件"></div>
+  <div class="filters" id="filters" hidden>
+    <button type="button" id="mobileFilterDone"><b>筛选</b><span>完成 ✓</span></button>
+    <div class="filter-row"><span class="filter-label">分类</span><div class="chips" id="genreChips"></div></div>
+    <div class="filter-row"><span class="filter-label">载体</span><div class="chips" id="platformChips"></div></div>
+    <div class="filter-row"><span class="filter-label">附带</span><div class="chips">
+      <label class="check-label"><input type="checkbox" id="onlyUncensored">扩展内容</label>
+      <label class="check-label"><input type="checkbox" id="onlySaves">附加文件</label>
+      <label class="check-label"><input type="checkbox" id="onlyCheats">补充信息</label></div></div>
+    <div class="filter-row discovery-row"><span class="filter-label">标签</span><div class="discovery-controls"><input id="inlineTagSearch" class="inline-filter-search" type="search" aria-label="搜索标签" placeholder="搜索标签…"><div class="discovery-actions"><button id="expandTags" aria-expanded="false" aria-controls="tagChips">展开全部 ↓</button><button id="allTags">大窗口多选</button></div></div><div class="chips" id="tagChips"></div><span id="tagSearchHint" class="filter-hint" aria-live="polite"></span></div>
+    <div class="filter-row discovery-row popular-authors"><span class="filter-label">作者</span><div class="discovery-controls"><input id="inlineAuthorSearch" class="inline-filter-search" type="search" aria-label="搜索作者" placeholder="搜索作者…"><div class="discovery-actions"><button id="expandAuthors" aria-expanded="false" aria-controls="hotAuthors">展开全部 ↓</button><button id="moreAuthors">大窗口多选</button></div></div><div class="chips" id="hotAuthors"></div><span id="authorSearchHint" class="filter-hint" aria-live="polite"></span></div>
+    <div class="filter-row secondary-filters">
+      <span class="filter-label">其他</span>
+      <select id="month" aria-label="收录月份"><option value="">全部月份</option></select>
+      <button id="findAuthor" class="text-button" hidden>搜索作者 / 多选</button><select id="author" aria-label="制作作者" hidden><option value="">全部作者</option></select>
+      <label class="check-label"><input type="checkbox" id="onlyFavorites">只看收藏</label>
+      <label class="check-label"><input type="checkbox" id="showCounts">显示分类数量</label>
+      <button class="text-button" id="toggleAuthors" aria-expanded="false">按作者筛选 ↓</button>
+      <button class="text-button" id="reset">清空筛选 ↺</button>
+    </div>
+  </div>
+</header>
+<div class="workbook-notice" id="workbookNotice" hidden><div id="noticeText" role="button" tabindex="0" aria-expanded="false"></div><button id="noticeClose" aria-label="关闭这条提醒">×</button></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar" aria-label="分区、榜单和日期">
+  <a id="literatureCard" class="literature-card" target="_blank" rel="noopener noreferrer" aria-label="目录指引：查看说明与更新入口">
+    <svg viewBox="0 0 240 132" role="img" aria-label="目录说明图形">
+      <rect width="240" height="132" rx="18" fill="currentColor" opacity=".09"/>
+      <circle cx="195" cy="30" r="30" fill="currentColor" opacity=".08"/>
+      <path d="M0 110Q62 68 123 115T240 100V132H0Z" fill="currentColor" opacity=".09"/>
+      <g transform="translate(70 27) rotate(-7 50 40)">
+        <path d="M0 4Q28-7 50 7Q72-7 100 4V76Q73 63 50 78Q24 64 0 76Z" fill="var(--surface)" stroke="currentColor" stroke-width="2"/>
+        <path d="M50 7V78M12 20Q28 16 39 22M12 31Q28 27 39 33M12 42Q28 38 39 44M61 22Q77 16 89 20M61 33Q77 27 89 31M61 44Q77 38 89 42" fill="none" stroke="currentColor" opacity=".5" stroke-width="2"/>
+        <path d="M72 1V29L79 23L86 27V0" fill="#e6ac6f"/>
+      </g><path d="M34 32v14m-7-7h14M201 83v12m-6-6h12" stroke="currentColor" stroke-width="2"/>
+    </svg>
+    <span><strong>目录指引</strong><small>查看说明与更新入口</small></span>
+  </a>
+  <span class="nav-label">分区</span>
+  <nav aria-label="条目分区" id="navigation"></nav>
+  <span class="nav-label" id="listNavLabel">榜单和名单</span>
+  <nav aria-label="榜单和名单" id="listNavigation"></nav>
+  <span class="nav-label" title="点日子跳过去；颜色越深，当天收录越多">按日期</span>
+  <div id="calendar" class="calendar"></div>
+  <div class="sidebar-line"></div>
+  <span class="nav-label">导航</span>
+  <nav id="utilityNavigation" aria-label="导航"></nav><div hidden><button class="nav-item" id="collectionManager"><span>♡</span>收藏管理<b id="collectionNeeds" hidden></b></button>
+  <button class="nav-item" id="navGuide"><span>☷</span>使用说明</button>
+  </div><div hidden aria-hidden="true">
+    <button id="importCode">导入收藏码</button><button id="copyFavCode">复制收藏码</button>
+    <button id="pendingFav">待匹配收藏</button><button id="exportFav">导出收藏</button>
+    <button id="importFav">导入收藏</button><button id="copyPassword">复制顶部提示</button>
+  </div>
+  <input type="file" id="importFile" accept="application/json,.json" hidden>
+  <div class="sidebar-bottom">
+    <small id="sideNote">__PRODUCT_NAME__ · 离线目录</small>
+  </div>
+</aside>
+<div class="scrim" id="scrim" hidden></div>
+<main>
+  <section class="hero" aria-labelledby="heroTitle" data-layout="compact">
+    <div class="hero-copy">
+      <div class="eyebrow"><span></span>整理所藏 · 发现所需</div>
+      <h1 id="heroTitle">你的下一份，<span class="italic">在这里。</span></h1>
+      <p>整理自己的条目，随时浏览与收藏。</p>
+      <div class="hero-bottom">
+        <button class="primary" id="surprise">随机发现 <span>↗</span></button>
+        <span class="hero-note">已收录 <b id="total">0</b> 件条目</span>
+      </div>
+      <div class="quick-pills" id="quickPills"></div>
+    </div>
+    <div class="hero-destinations">
+      <button id="documentation" class="destination-card">
+        <span class="destination-icon">☷</span><span><small>开始前，先看这里</small><strong>目录 · 使用指南</strong><em>使用教程 / 文档 / 常见问题</em></span><b>↗</b>
+      </button>
+      <a id="creatorLink" class="destination-card creator-card" target="_blank" rel="noopener noreferrer">
+        <span class="destination-icon">▣</span><span><small>CONTACT</small><strong id="creatorTitle">关注与联系</strong><em>发布动态与联系入口</em></span><b>↗</b>
+      </a>
+    </div>
+  </section>
+  <section class="collection" aria-label="条目浏览">
+    <div class="section-head">
+      <div class="section-title"><h2 id="sectionTitle">全部条目 <span id="resultCount">0</span></h2><span id="summary" role="status" aria-live="polite"></span><span id="hiddenNote" class="hidden-note"></span></div>
+      <div class="collection-actions">
+        <label class="hero-style-label">头图样式 <select id="heroStyle" aria-label="头图样式"><option value="compact">简约横幅</option><option value="postcard">分栏卡片</option></select></label><button id="heroToggle" class="text-button" aria-expanded="false">展开头图 ↓</button>
+        <button id="exportResults" class="secondary">导出结果 ↓</button>
+      </div>
+    </div>
+    <div id="overview" class="overview" aria-label="这一期概况"></div>
+    <div id="favoriteTools" class="favorite-tools" hidden><span>换了新版？把之前的收藏带过来。</span><div><button id="favPageImport" class="primary">＋ 导入收藏</button><button id="favPageExport" class="secondary">分享 / 备份收藏 ↗</button></div></div>
+    <div id="monthJump" class="month-jump" hidden aria-label="跳到某个月"></div>
+    <div id="results" class="rows" tabindex="-1" aria-label="条目列表"></div>
+    <div id="empty" class="empty" hidden><span>⌕</span><h3 id="emptyTitle">这里暂时没有条目</h3><p id="emptyText">换一个关键词，或清空筛选重新发现。</p><button class="primary" id="emptyReset">浏览全部条目</button></div>
+    <footer class="pagination">
+      <span id="pageInfo"></span>
+      <div id="pages" aria-label="分页"></div>
+      <form id="jumpForm" class="page-jump"><label for="jumpPage">前往</label><input id="jumpPage" type="number" min="1" value="1" aria-label="跳转页码"><button class="secondary" type="submit">跳转</button></form>
+      <select id="pageSize" aria-label="每页数量">
+        <option value="24">每页 24 件</option>
+        <option value="48">每页 48 件</option>
+        <option value="96">每页 96 件</option>
+        <option value="12">每页 12 件</option><option value="25">每页 25 件</option><option value="50">每页 50 件</option><option value="100" selected>每页 100 件</option><option value="99999">全部展示</option>
+      </select>
+    </footer>
+  </section>
+  <footer class="site-footer">
+    <span id="footerBrand">__PRODUCT_NAME__</span>
+    <span id="footerMeta">离线单文件 · 无外部资源依赖</span>
+    <button class="back-top-button" id="backTop">置顶 ↑</button>
+  </footer>
+</main>
+</div>
+<section id="mobileMore" hidden aria-label="更多选项"><header><b>更多</b><button id="mobileMoreClose" class="icon-button" aria-label="关闭更多">×</button></header><div id="mobileOtherSlot"></div><div class="mobile-more-actions"><button id="mobileManage">收藏与备份</button><a id="mobileLatest" hidden target="_blank" rel="noopener noreferrer">最新版 ↗</a><button onclick="document.getElementById('backTop').click()">回到顶部 ↑</button></div></section>
+<nav class="mbar" id="mbar" aria-label="手机快捷分区"></nav>
+<div class="compare-bar" id="compareBar" hidden>
+  <span>已选 <b id="compareCount">0</b> 部</span>
+  <div id="compareNames"></div>
+  <button class="primary" id="compareOpen">并排对比</button>
+  <button class="icon-button" id="compareClear" aria-label="清空对比">×</button>
+</div>
+<dialog id="modal" aria-labelledby="modalTitle">
+  <div class="dialog-top"><span class="eyebrow" id="modalEyebrow">THE COLLECTION</span><button class="icon-button" id="closeModal" aria-label="关闭弹窗">×</button></div>
+  <div id="modalBody"></div>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>/*__META_START__*/window.__GLOBAL_META__ = __UI_META__;/*__META_END__*/
+/*__RECORDS_START__*/window.__GAME_RECORDS__ = __UI_RECORDS__;/*__RECORDS_END*/</script>
+<script>/*@include image-codec.js*/</script>
+<script>/*@include reader-images.js*/</script>
+<script>/*@include reader-decode.js*/</script>
+<script>/*@include reader-config.js*/</script>
+<script>/*@include reader-search-map.js*/</script>
+<script>/*@include reader-mobile.js*/</script>
+<script>/*@include reader-app.js*/</script>
+</body>
+</html>

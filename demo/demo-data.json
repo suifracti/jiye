@@ -1,0 +1,3871 @@
+{
+  "schema": "jiye-demo-v1",
+  "meta": {
+    "input_name": "集页演示目录",
+    "title": "集页演示目录",
+    "collection_key": "jiye-demo-v1",
+    "update_date": "2026-11-01",
+    "is_demo": true,
+    "password": "",
+    "warning": "",
+    "notice": "",
+    "extract_guide": "请只整理和分享你有权使用的内容。",
+    "row2_body": "请按自己的资源填写使用说明。",
+    "row5_steps": [
+      {
+        "title": "找到作品",
+        "body": "用目录编号和筛选找到想查看的条目。"
+      },
+      {
+        "title": "查看合集",
+        "body": "演示链接不可访问，自己的资源链接可在母版配置。"
+      },
+      {
+        "title": "阅读说明",
+        "body": "按自己的条目填写说明与附件。"
+      }
+    ],
+    "row4_modules": [
+      {
+        "title": "找到作品",
+        "body": "用目录编号和筛选找到想查看的条目。"
+      },
+      {
+        "title": "查看合集",
+        "body": "演示链接不可访问，自己的资源链接可在母版配置。"
+      },
+      {
+        "title": "阅读说明",
+        "body": "按自己的条目填写说明与附件。"
+      }
+    ],
+    "row5_template": {
+      "steps": [
+        {
+          "title": "找到作品",
+          "body": "用目录编号和筛选找到想查看的条目。"
+        },
+        {
+          "title": "查看合集",
+          "body": "演示链接不可访问，自己的资源链接可在母版配置。"
+        },
+        {
+          "title": "阅读说明",
+          "body": "按自己的条目填写说明与附件。"
+        }
+      ],
+      "文档链接": "",
+      "更新链接": "",
+      "更新标题": "更新动态"
+    },
+    "ui_config": {
+      "theme": "eye",
+      "show_background": false,
+      "background_url": "",
+      "background_mobile_url": "",
+      "show_covers": true,
+      "show_hero": true,
+      "show_random": true,
+      "hero_title": "集页 · 随身目录",
+      "hero_subtitle": "48 条原创示例，所有资源链接均为演示。",
+      "hero_style": "compact",
+      "eyebrow": "离线目录 · 随心整理",
+      "footer_text": "集页 · 只整理你有权分享的内容",
+      "sidebar_text": "原创演示目录",
+      "show_nav_cards": true,
+      "doc_title": "使用指南",
+      "doc_subtitle": "查看目录说明",
+      "doc_url": "",
+      "guide_title": "使用指南",
+      "guide_subtitle": "查看目录说明",
+      "contact_title": "更新动态",
+      "contact_subtitle": "了解目录变化",
+      "contact_url": "",
+      "allow_remote_images": false,
+      "doc_image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDE8L3RleHQ+PC9zdmc+",
+      "contact_image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDI8L3RleHQ+PC9zdmc+",
+      "hero_image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDM8L3RleHQ+PC9zdmc+",
+      "logo_image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDQ8L3RleHQ+PC9zdmc+",
+      "stale_days": 0,
+      "enable_export": true
+    },
+    "latest_catalog_url": "",
+    "top_notice": {
+      "text": "",
+      "visible": false,
+      "copyable": false
+    },
+    "version_types": [
+      {
+        "name": "默认",
+        "color": "#367669"
+      }
+    ],
+    "modules": {
+      "downloads": false,
+      "quark": false
+    }
+  },
+  "records": [
+    {
+      "id": "DEMO-0001",
+      "code": "ITEM-0001",
+      "name": "星河手记 · 示例01",
+      "title": "星河手记 · 示例01",
+      "raw_name": "星河手记 · 示例01",
+      "raw_title": "星河手记 · 示例01",
+      "version": "v1.1",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 1"
+      ],
+      "date": "2026-11-01",
+      "publish_date": "2026-11-01",
+      "date_short": "11/01",
+      "date_label": "2026年11月1日",
+      "month_batch": "2026年11月",
+      "zone_sub": "2026年11月",
+      "category": "2026-11-01",
+      "category_raw": "2026-11-01",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单",
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-0",
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "206M",
+      "size_mb": 100,
+      "size": 100,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-30",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 1,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "星河手记 · 示例01 ITEM-0001 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 1"
+    },
+    {
+      "id": "DEMO-0002",
+      "code": "ITEM-0002",
+      "name": "山间邮局 · 示例01",
+      "title": "山间邮局 · 示例01",
+      "raw_name": "山间邮局 · 示例01",
+      "raw_title": "山间邮局 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 2"
+      ],
+      "date": "2026-10-31",
+      "publish_date": "2026-10-31",
+      "date_short": "10/31",
+      "date_label": "2026年10月31日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-31",
+      "category_raw": "2026-10-31",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "101M",
+      "size_mb": 101,
+      "size": 101,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 2,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "山间邮局 · 示例01 ITEM-0002 虚构作者2 电影 数字影像 默认 演示 剧情 Example 2"
+    },
+    {
+      "id": "DEMO-0003",
+      "code": "ITEM-0003",
+      "name": "纸上花园 · 示例01",
+      "title": "纸上花园 · 示例01",
+      "raw_name": "纸上花园 · 示例01",
+      "raw_title": "纸上花园 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 3"
+      ],
+      "date": "2026-10-30",
+      "publish_date": "2026-10-30",
+      "date_short": "10/30",
+      "date_label": "2026年10月30日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-30",
+      "category_raw": "2026-10-30",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "877M",
+      "size_mb": 102,
+      "size": 102,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 3,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "纸上花园 · 示例01 ITEM-0003 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 3"
+    },
+    {
+      "id": "DEMO-0004",
+      "code": "ITEM-0004",
+      "name": "晨光工坊 · 示例01",
+      "title": "晨光工坊 · 示例01",
+      "raw_name": "晨光工坊 · 示例01",
+      "raw_title": "晨光工坊 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 4"
+      ],
+      "date": "2026-10-29",
+      "publish_date": "2026-10-29",
+      "date_short": "10/29",
+      "date_label": "2026年10月29日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-29",
+      "category_raw": "2026-10-29",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "182M",
+      "size_mb": 103,
+      "size": 103,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 4,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "晨光工坊 · 示例01 ITEM-0004 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 4"
+    },
+    {
+      "id": "DEMO-0005",
+      "code": "ITEM-0005",
+      "name": "小岛漫游 · 示例01",
+      "title": "小岛漫游 · 示例01",
+      "raw_name": "小岛漫游 · 示例01",
+      "raw_title": "小岛漫游 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 5"
+      ],
+      "date": "2026-10-28",
+      "publish_date": "2026-10-28",
+      "date_short": "10/28",
+      "date_label": "2026年10月28日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-28",
+      "category_raw": "2026-10-28",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "245M",
+      "size_mb": 104,
+      "size": 104,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 5,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "小岛漫游 · 示例01 ITEM-0005 虚构作者5 电影 数字影像 默认 演示 剧情 Example 5"
+    },
+    {
+      "id": "DEMO-0006",
+      "code": "ITEM-0006",
+      "name": "云端画室 · 示例01",
+      "title": "云端画室 · 示例01",
+      "raw_name": "云端画室 · 示例01",
+      "raw_title": "云端画室 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 6"
+      ],
+      "date": "2026-10-27",
+      "publish_date": "2026-10-27",
+      "date_short": "10/27",
+      "date_label": "2026年10月27日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-27",
+      "category_raw": "2026-10-27",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "662M",
+      "size_mb": 105,
+      "size": 105,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 6,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "云端画室 · 示例01 ITEM-0006 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 6"
+    },
+    {
+      "id": "DEMO-0007",
+      "code": "ITEM-0007",
+      "name": "森林来信 · 示例01",
+      "title": "森林来信 · 示例01",
+      "raw_name": "森林来信 · 示例01",
+      "raw_title": "森林来信 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 7"
+      ],
+      "date": "2026-10-26",
+      "publish_date": "2026-10-26",
+      "date_short": "10/26",
+      "date_label": "2026年10月26日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-26",
+      "category_raw": "2026-10-26",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "242M",
+      "size_mb": 106,
+      "size": 106,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-24",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 7,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "森林来信 · 示例01 ITEM-0007 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 7"
+    },
+    {
+      "id": "DEMO-0008",
+      "code": "ITEM-0008",
+      "name": "沙丘笔记 · 示例01",
+      "title": "沙丘笔记 · 示例01",
+      "raw_name": "沙丘笔记 · 示例01",
+      "raw_title": "沙丘笔记 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 8"
+      ],
+      "date": "2026-10-25",
+      "publish_date": "2026-10-25",
+      "date_short": "10/25",
+      "date_label": "2026年10月25日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-25",
+      "category_raw": "2026-10-25",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "468M",
+      "size_mb": 107,
+      "size": 107,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 8,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "沙丘笔记 · 示例01 ITEM-0008 虚构作者2 电影 数字影像 默认 演示 剧情 Example 8"
+    },
+    {
+      "id": "DEMO-0009",
+      "code": "ITEM-0009",
+      "name": "时钟街角 · 示例01",
+      "title": "时钟街角 · 示例01",
+      "raw_name": "时钟街角 · 示例01",
+      "raw_title": "时钟街角 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 9"
+      ],
+      "date": "2026-10-24",
+      "publish_date": "2026-10-24",
+      "date_short": "10/24",
+      "date_label": "2026年10月24日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-24",
+      "category_raw": "2026-10-24",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "153M",
+      "size_mb": 108,
+      "size": 108,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 9,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "时钟街角 · 示例01 ITEM-0009 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 9"
+    },
+    {
+      "id": "DEMO-0010",
+      "code": "ITEM-0010",
+      "name": "月光地图 · 示例01",
+      "title": "月光地图 · 示例01",
+      "raw_name": "月光地图 · 示例01",
+      "raw_title": "月光地图 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 10"
+      ],
+      "date": "2026-10-23",
+      "publish_date": "2026-10-23",
+      "date_short": "10/23",
+      "date_label": "2026年10月23日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-23",
+      "category_raw": "2026-10-23",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单",
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-0",
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "282M",
+      "size_mb": 109,
+      "size": 109,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 10,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "月光地图 · 示例01 ITEM-0010 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 10"
+    },
+    {
+      "id": "DEMO-0011",
+      "code": "ITEM-0011",
+      "name": "风车课堂 · 示例01",
+      "title": "风车课堂 · 示例01",
+      "raw_name": "风车课堂 · 示例01",
+      "raw_title": "风车课堂 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 11"
+      ],
+      "date": "2026-10-22",
+      "publish_date": "2026-10-22",
+      "date_short": "10/22",
+      "date_label": "2026年10月22日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-22",
+      "category_raw": "2026-10-22",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "76M",
+      "size_mb": 110,
+      "size": 110,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 11,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "风车课堂 · 示例01 ITEM-0011 虚构作者5 电影 数字影像 默认 演示 剧情 Example 11"
+    },
+    {
+      "id": "DEMO-0012",
+      "code": "ITEM-0012",
+      "name": "海岸图集 · 示例01",
+      "title": "海岸图集 · 示例01",
+      "raw_name": "海岸图集 · 示例01",
+      "raw_title": "海岸图集 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 12"
+      ],
+      "date": "2026-10-21",
+      "publish_date": "2026-10-21",
+      "date_short": "10/21",
+      "date_label": "2026年10月21日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-21",
+      "category_raw": "2026-10-21",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "78M",
+      "size_mb": 111,
+      "size": 111,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 12,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "海岸图集 · 示例01 ITEM-0012 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 12"
+    },
+    {
+      "id": "DEMO-0013",
+      "code": "ITEM-0013",
+      "name": "星河手记 · 示例01",
+      "title": "星河手记 · 示例01",
+      "raw_name": "星河手记 · 示例01",
+      "raw_title": "星河手记 · 示例01",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 13"
+      ],
+      "date": "2026-11-01",
+      "publish_date": "2026-11-01",
+      "date_short": "11/01",
+      "date_label": "2026年11月1日",
+      "month_batch": "2026年11月",
+      "zone_sub": "2026年11月",
+      "category": "2026-11-01",
+      "category_raw": "2026-11-01",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "554M",
+      "size_mb": 112,
+      "size": 112,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-30",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 13,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "星河手记 · 示例01 ITEM-0013 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 13"
+    },
+    {
+      "id": "DEMO-0014",
+      "code": "ITEM-0014",
+      "name": "山间邮局 · 示例02",
+      "title": "山间邮局 · 示例02",
+      "raw_name": "山间邮局 · 示例02",
+      "raw_title": "山间邮局 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 14"
+      ],
+      "date": "2026-10-31",
+      "publish_date": "2026-10-31",
+      "date_short": "10/31",
+      "date_label": "2026年10月31日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-31",
+      "category_raw": "2026-10-31",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "481M",
+      "size_mb": 113,
+      "size": 113,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 14,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "山间邮局 · 示例02 ITEM-0014 虚构作者2 电影 数字影像 默认 演示 剧情 Example 14"
+    },
+    {
+      "id": "DEMO-0015",
+      "code": "ITEM-0015",
+      "name": "纸上花园 · 示例02",
+      "title": "纸上花园 · 示例02",
+      "raw_name": "纸上花园 · 示例02",
+      "raw_title": "纸上花园 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 15"
+      ],
+      "date": "2026-10-30",
+      "publish_date": "2026-10-30",
+      "date_short": "10/30",
+      "date_label": "2026年10月30日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-30",
+      "category_raw": "2026-10-30",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "480M",
+      "size_mb": 114,
+      "size": 114,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 15,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "纸上花园 · 示例02 ITEM-0015 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 15"
+    },
+    {
+      "id": "DEMO-0016",
+      "code": "ITEM-0016",
+      "name": "晨光工坊 · 示例02",
+      "title": "晨光工坊 · 示例02",
+      "raw_name": "晨光工坊 · 示例02",
+      "raw_title": "晨光工坊 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 16"
+      ],
+      "date": "2026-10-29",
+      "publish_date": "2026-10-29",
+      "date_short": "10/29",
+      "date_label": "2026年10月29日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-29",
+      "category_raw": "2026-10-29",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "617M",
+      "size_mb": 115,
+      "size": 115,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 16,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "晨光工坊 · 示例02 ITEM-0016 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 16"
+    },
+    {
+      "id": "DEMO-0017",
+      "code": "ITEM-0017",
+      "name": "小岛漫游 · 示例02",
+      "title": "小岛漫游 · 示例02",
+      "raw_name": "小岛漫游 · 示例02",
+      "raw_title": "小岛漫游 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 17"
+      ],
+      "date": "2026-10-28",
+      "publish_date": "2026-10-28",
+      "date_short": "10/28",
+      "date_label": "2026年10月28日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-28",
+      "category_raw": "2026-10-28",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "892M",
+      "size_mb": 116,
+      "size": 116,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 17,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "小岛漫游 · 示例02 ITEM-0017 虚构作者5 电影 数字影像 默认 演示 剧情 Example 17"
+    },
+    {
+      "id": "DEMO-0018",
+      "code": "ITEM-0018",
+      "name": "云端画室 · 示例02",
+      "title": "云端画室 · 示例02",
+      "raw_name": "云端画室 · 示例02",
+      "raw_title": "云端画室 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 18"
+      ],
+      "date": "2026-10-27",
+      "publish_date": "2026-10-27",
+      "date_short": "10/27",
+      "date_label": "2026年10月27日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-27",
+      "category_raw": "2026-10-27",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "91M",
+      "size_mb": 117,
+      "size": 117,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 18,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "云端画室 · 示例02 ITEM-0018 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 18"
+    },
+    {
+      "id": "DEMO-0019",
+      "code": "ITEM-0019",
+      "name": "森林来信 · 示例02",
+      "title": "森林来信 · 示例02",
+      "raw_name": "森林来信 · 示例02",
+      "raw_title": "森林来信 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 19"
+      ],
+      "date": "2026-10-26",
+      "publish_date": "2026-10-26",
+      "date_short": "10/26",
+      "date_label": "2026年10月26日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-26",
+      "category_raw": "2026-10-26",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单",
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-0",
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "130M",
+      "size_mb": 118,
+      "size": 118,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-24",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 19,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "森林来信 · 示例02 ITEM-0019 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 19"
+    },
+    {
+      "id": "DEMO-0020",
+      "code": "ITEM-0020",
+      "name": "沙丘笔记 · 示例02",
+      "title": "沙丘笔记 · 示例02",
+      "raw_name": "沙丘笔记 · 示例02",
+      "raw_title": "沙丘笔记 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 20"
+      ],
+      "date": "2026-10-25",
+      "publish_date": "2026-10-25",
+      "date_short": "10/25",
+      "date_label": "2026年10月25日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-25",
+      "category_raw": "2026-10-25",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "796M",
+      "size_mb": 119,
+      "size": 119,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 20,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "沙丘笔记 · 示例02 ITEM-0020 虚构作者2 电影 数字影像 默认 演示 剧情 Example 20"
+    },
+    {
+      "id": "DEMO-0021",
+      "code": "ITEM-0021",
+      "name": "时钟街角 · 示例02",
+      "title": "时钟街角 · 示例02",
+      "raw_name": "时钟街角 · 示例02",
+      "raw_title": "时钟街角 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 21"
+      ],
+      "date": "2026-10-24",
+      "publish_date": "2026-10-24",
+      "date_short": "10/24",
+      "date_label": "2026年10月24日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-24",
+      "category_raw": "2026-10-24",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "493M",
+      "size_mb": 120,
+      "size": 120,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 21,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "时钟街角 · 示例02 ITEM-0021 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 21"
+    },
+    {
+      "id": "DEMO-0022",
+      "code": "ITEM-0022",
+      "name": "月光地图 · 示例02",
+      "title": "月光地图 · 示例02",
+      "raw_name": "月光地图 · 示例02",
+      "raw_title": "月光地图 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 22"
+      ],
+      "date": "2026-10-23",
+      "publish_date": "2026-10-23",
+      "date_short": "10/23",
+      "date_label": "2026年10月23日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-23",
+      "category_raw": "2026-10-23",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "288M",
+      "size_mb": 121,
+      "size": 121,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 22,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "月光地图 · 示例02 ITEM-0022 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 22"
+    },
+    {
+      "id": "DEMO-0023",
+      "code": "ITEM-0023",
+      "name": "风车课堂 · 示例02",
+      "title": "风车课堂 · 示例02",
+      "raw_name": "风车课堂 · 示例02",
+      "raw_title": "风车课堂 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 23"
+      ],
+      "date": "2026-10-22",
+      "publish_date": "2026-10-22",
+      "date_short": "10/22",
+      "date_label": "2026年10月22日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-22",
+      "category_raw": "2026-10-22",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "845M",
+      "size_mb": 122,
+      "size": 122,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 23,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "风车课堂 · 示例02 ITEM-0023 虚构作者5 电影 数字影像 默认 演示 剧情 Example 23"
+    },
+    {
+      "id": "DEMO-0024",
+      "code": "ITEM-0024",
+      "name": "海岸图集 · 示例02",
+      "title": "海岸图集 · 示例02",
+      "raw_name": "海岸图集 · 示例02",
+      "raw_title": "海岸图集 · 示例02",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 24"
+      ],
+      "date": "2026-10-21",
+      "publish_date": "2026-10-21",
+      "date_short": "10/21",
+      "date_label": "2026年10月21日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-21",
+      "category_raw": "2026-10-21",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "556M",
+      "size_mb": 123,
+      "size": 123,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 24,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "海岸图集 · 示例02 ITEM-0024 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 24"
+    },
+    {
+      "id": "DEMO-0025",
+      "code": "ITEM-0025",
+      "name": "星河手记 · 示例03",
+      "title": "星河手记 · 示例03",
+      "raw_name": "星河手记 · 示例03",
+      "raw_title": "星河手记 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 25"
+      ],
+      "date": "2026-11-01",
+      "publish_date": "2026-11-01",
+      "date_short": "11/01",
+      "date_label": "2026年11月1日",
+      "month_batch": "2026年11月",
+      "zone_sub": "2026年11月",
+      "category": "2026-11-01",
+      "category_raw": "2026-11-01",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "811M",
+      "size_mb": 124,
+      "size": 124,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-30",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 25,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "星河手记 · 示例03 ITEM-0025 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 25"
+    },
+    {
+      "id": "DEMO-0026",
+      "code": "ITEM-0026",
+      "name": "山间邮局 · 示例03",
+      "title": "山间邮局 · 示例03",
+      "raw_name": "山间邮局 · 示例03",
+      "raw_title": "山间邮局 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 26"
+      ],
+      "date": "2026-10-31",
+      "publish_date": "2026-10-31",
+      "date_short": "10/31",
+      "date_label": "2026年10月31日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-31",
+      "category_raw": "2026-10-31",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "772M",
+      "size_mb": 125,
+      "size": 125,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 26,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "山间邮局 · 示例03 ITEM-0026 虚构作者2 电影 数字影像 默认 演示 剧情 Example 26"
+    },
+    {
+      "id": "DEMO-0027",
+      "code": "ITEM-0027",
+      "name": "纸上花园 · 示例03",
+      "title": "纸上花园 · 示例03",
+      "raw_name": "纸上花园 · 示例03",
+      "raw_title": "纸上花园 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 27"
+      ],
+      "date": "2026-10-30",
+      "publish_date": "2026-10-30",
+      "date_short": "10/30",
+      "date_label": "2026年10月30日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-30",
+      "category_raw": "2026-10-30",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "262M",
+      "size_mb": 126,
+      "size": 126,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 27,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "纸上花园 · 示例03 ITEM-0027 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 27"
+    },
+    {
+      "id": "DEMO-0028",
+      "code": "ITEM-0028",
+      "name": "晨光工坊 · 示例03",
+      "title": "晨光工坊 · 示例03",
+      "raw_name": "晨光工坊 · 示例03",
+      "raw_title": "晨光工坊 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 28"
+      ],
+      "date": "2026-10-29",
+      "publish_date": "2026-10-29",
+      "date_short": "10/29",
+      "date_label": "2026年10月29日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-29",
+      "category_raw": "2026-10-29",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单",
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-0",
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "311M",
+      "size_mb": 127,
+      "size": 127,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 28,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "晨光工坊 · 示例03 ITEM-0028 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 28"
+    },
+    {
+      "id": "DEMO-0029",
+      "code": "ITEM-0029",
+      "name": "小岛漫游 · 示例03",
+      "title": "小岛漫游 · 示例03",
+      "raw_name": "小岛漫游 · 示例03",
+      "raw_title": "小岛漫游 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 29"
+      ],
+      "date": "2026-10-28",
+      "publish_date": "2026-10-28",
+      "date_short": "10/28",
+      "date_label": "2026年10月28日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-28",
+      "category_raw": "2026-10-28",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "443M",
+      "size_mb": 128,
+      "size": 128,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 29,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "小岛漫游 · 示例03 ITEM-0029 虚构作者5 电影 数字影像 默认 演示 剧情 Example 29"
+    },
+    {
+      "id": "DEMO-0030",
+      "code": "ITEM-0030",
+      "name": "云端画室 · 示例03",
+      "title": "云端画室 · 示例03",
+      "raw_name": "云端画室 · 示例03",
+      "raw_title": "云端画室 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 30"
+      ],
+      "date": "2026-10-27",
+      "publish_date": "2026-10-27",
+      "date_short": "10/27",
+      "date_label": "2026年10月27日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-27",
+      "category_raw": "2026-10-27",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "882M",
+      "size_mb": 129,
+      "size": 129,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 30,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "云端画室 · 示例03 ITEM-0030 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 30"
+    },
+    {
+      "id": "DEMO-0031",
+      "code": "ITEM-0031",
+      "name": "森林来信 · 示例03",
+      "title": "森林来信 · 示例03",
+      "raw_name": "森林来信 · 示例03",
+      "raw_title": "森林来信 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 31"
+      ],
+      "date": "2026-10-26",
+      "publish_date": "2026-10-26",
+      "date_short": "10/26",
+      "date_label": "2026年10月26日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-26",
+      "category_raw": "2026-10-26",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "227M",
+      "size_mb": 130,
+      "size": 130,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-24",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 31,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "森林来信 · 示例03 ITEM-0031 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 31"
+    },
+    {
+      "id": "DEMO-0032",
+      "code": "ITEM-0032",
+      "name": "沙丘笔记 · 示例03",
+      "title": "沙丘笔记 · 示例03",
+      "raw_name": "沙丘笔记 · 示例03",
+      "raw_title": "沙丘笔记 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 32"
+      ],
+      "date": "2026-10-25",
+      "publish_date": "2026-10-25",
+      "date_short": "10/25",
+      "date_label": "2026年10月25日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-25",
+      "category_raw": "2026-10-25",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "255M",
+      "size_mb": 131,
+      "size": 131,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 32,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "沙丘笔记 · 示例03 ITEM-0032 虚构作者2 电影 数字影像 默认 演示 剧情 Example 32"
+    },
+    {
+      "id": "DEMO-0033",
+      "code": "ITEM-0033",
+      "name": "时钟街角 · 示例03",
+      "title": "时钟街角 · 示例03",
+      "raw_name": "时钟街角 · 示例03",
+      "raw_title": "时钟街角 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 33"
+      ],
+      "date": "2026-10-24",
+      "publish_date": "2026-10-24",
+      "date_short": "10/24",
+      "date_label": "2026年10月24日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-24",
+      "category_raw": "2026-10-24",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "546M",
+      "size_mb": 132,
+      "size": 132,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 33,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "时钟街角 · 示例03 ITEM-0033 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 33"
+    },
+    {
+      "id": "DEMO-0034",
+      "code": "ITEM-0034",
+      "name": "月光地图 · 示例03",
+      "title": "月光地图 · 示例03",
+      "raw_name": "月光地图 · 示例03",
+      "raw_title": "月光地图 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 34"
+      ],
+      "date": "2026-10-23",
+      "publish_date": "2026-10-23",
+      "date_short": "10/23",
+      "date_label": "2026年10月23日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-23",
+      "category_raw": "2026-10-23",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "848M",
+      "size_mb": 133,
+      "size": 133,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 34,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "月光地图 · 示例03 ITEM-0034 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 34"
+    },
+    {
+      "id": "DEMO-0035",
+      "code": "ITEM-0035",
+      "name": "风车课堂 · 示例03",
+      "title": "风车课堂 · 示例03",
+      "raw_name": "风车课堂 · 示例03",
+      "raw_title": "风车课堂 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 35"
+      ],
+      "date": "2026-10-22",
+      "publish_date": "2026-10-22",
+      "date_short": "10/22",
+      "date_label": "2026年10月22日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-22",
+      "category_raw": "2026-10-22",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "384M",
+      "size_mb": 134,
+      "size": 134,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 35,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "风车课堂 · 示例03 ITEM-0035 虚构作者5 电影 数字影像 默认 演示 剧情 Example 35"
+    },
+    {
+      "id": "DEMO-0036",
+      "code": "ITEM-0036",
+      "name": "海岸图集 · 示例03",
+      "title": "海岸图集 · 示例03",
+      "raw_name": "海岸图集 · 示例03",
+      "raw_title": "海岸图集 · 示例03",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 36"
+      ],
+      "date": "2026-10-21",
+      "publish_date": "2026-10-21",
+      "date_short": "10/21",
+      "date_label": "2026年10月21日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-21",
+      "category_raw": "2026-10-21",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "467M",
+      "size_mb": 135,
+      "size": 135,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 36,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "海岸图集 · 示例03 ITEM-0036 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 36"
+    },
+    {
+      "id": "DEMO-0037",
+      "code": "ITEM-0037",
+      "name": "星河手记 · 示例04",
+      "title": "星河手记 · 示例04",
+      "raw_name": "星河手记 · 示例04",
+      "raw_title": "星河手记 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 37"
+      ],
+      "date": "2026-11-01",
+      "publish_date": "2026-11-01",
+      "date_short": "11/01",
+      "date_label": "2026年11月1日",
+      "month_batch": "2026年11月",
+      "zone_sub": "2026年11月",
+      "category": "2026-11-01",
+      "category_raw": "2026-11-01",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单",
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-0",
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "182M",
+      "size_mb": 136,
+      "size": 136,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-30",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 37,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "星河手记 · 示例04 ITEM-0037 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 37"
+    },
+    {
+      "id": "DEMO-0038",
+      "code": "ITEM-0038",
+      "name": "山间邮局 · 示例04",
+      "title": "山间邮局 · 示例04",
+      "raw_name": "山间邮局 · 示例04",
+      "raw_title": "山间邮局 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 38"
+      ],
+      "date": "2026-10-31",
+      "publish_date": "2026-10-31",
+      "date_short": "10/31",
+      "date_label": "2026年10月31日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-31",
+      "category_raw": "2026-10-31",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "315M",
+      "size_mb": 137,
+      "size": 137,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 38,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "山间邮局 · 示例04 ITEM-0038 虚构作者2 电影 数字影像 默认 演示 剧情 Example 38"
+    },
+    {
+      "id": "DEMO-0039",
+      "code": "ITEM-0039",
+      "name": "纸上花园 · 示例04",
+      "title": "纸上花园 · 示例04",
+      "raw_name": "纸上花园 · 示例04",
+      "raw_title": "纸上花园 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 39"
+      ],
+      "date": "2026-10-30",
+      "publish_date": "2026-10-30",
+      "date_short": "10/30",
+      "date_label": "2026年10月30日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-30",
+      "category_raw": "2026-10-30",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "427M",
+      "size_mb": 138,
+      "size": 138,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 39,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "纸上花园 · 示例04 ITEM-0039 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 39"
+    },
+    {
+      "id": "DEMO-0040",
+      "code": "ITEM-0040",
+      "name": "晨光工坊 · 示例04",
+      "title": "晨光工坊 · 示例04",
+      "raw_name": "晨光工坊 · 示例04",
+      "raw_title": "晨光工坊 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 40"
+      ],
+      "date": "2026-10-29",
+      "publish_date": "2026-10-29",
+      "date_short": "10/29",
+      "date_label": "2026年10月29日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-29",
+      "category_raw": "2026-10-29",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "376M",
+      "size_mb": 139,
+      "size": 139,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 40,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "晨光工坊 · 示例04 ITEM-0040 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 40"
+    },
+    {
+      "id": "DEMO-0041",
+      "code": "ITEM-0041",
+      "name": "小岛漫游 · 示例04",
+      "title": "小岛漫游 · 示例04",
+      "raw_name": "小岛漫游 · 示例04",
+      "raw_title": "小岛漫游 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 41"
+      ],
+      "date": "2026-10-28",
+      "publish_date": "2026-10-28",
+      "date_short": "10/28",
+      "date_label": "2026年10月28日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-28",
+      "category_raw": "2026-10-28",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "139M",
+      "size_mb": 140,
+      "size": 140,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 41,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "小岛漫游 · 示例04 ITEM-0041 虚构作者5 电影 数字影像 默认 演示 剧情 Example 41"
+    },
+    {
+      "id": "DEMO-0042",
+      "code": "ITEM-0042",
+      "name": "云端画室 · 示例04",
+      "title": "云端画室 · 示例04",
+      "raw_name": "云端画室 · 示例04",
+      "raw_title": "云端画室 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 42"
+      ],
+      "date": "2026-10-27",
+      "publish_date": "2026-10-27",
+      "date_short": "10/27",
+      "date_label": "2026年10月27日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-27",
+      "category_raw": "2026-10-27",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "61M",
+      "size_mb": 141,
+      "size": 141,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 42,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "云端画室 · 示例04 ITEM-0042 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 42"
+    },
+    {
+      "id": "DEMO-0043",
+      "code": "ITEM-0043",
+      "name": "森林来信 · 示例04",
+      "title": "森林来信 · 示例04",
+      "raw_name": "森林来信 · 示例04",
+      "raw_title": "森林来信 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者1",
+      "circle": "虚构作者1",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 43"
+      ],
+      "date": "2026-10-26",
+      "publish_date": "2026-10-26",
+      "date_short": "10/26",
+      "date_label": "2026年10月26日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-26",
+      "category_raw": "2026-10-26",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单"
+      ],
+      "category_zones": [
+        "sheet-0"
+      ],
+      "source_schema": "structured",
+      "size_str": "873M",
+      "size_mb": 142,
+      "size": 142,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": true,
+      "is_update": true,
+      "update_summary": "新增说明与示例附件",
+      "version_date": "2026-10-24",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 43,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "森林来信 · 示例04 ITEM-0043 虚构作者1 小说 纸质与电子 默认 演示 文学 Example 43"
+    },
+    {
+      "id": "DEMO-0044",
+      "code": "ITEM-0044",
+      "name": "沙丘笔记 · 示例04",
+      "title": "沙丘笔记 · 示例04",
+      "raw_name": "沙丘笔记 · 示例04",
+      "raw_title": "沙丘笔记 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者2",
+      "circle": "虚构作者2",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 44"
+      ],
+      "date": "2026-10-25",
+      "publish_date": "2026-10-25",
+      "date_short": "10/25",
+      "date_label": "2026年10月25日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-25",
+      "category_raw": "2026-10-25",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "170M",
+      "size_mb": 143,
+      "size": 143,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 44,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "沙丘笔记 · 示例04 ITEM-0044 虚构作者2 电影 数字影像 默认 演示 剧情 Example 44"
+    },
+    {
+      "id": "DEMO-0045",
+      "code": "ITEM-0045",
+      "name": "时钟街角 · 示例04",
+      "title": "时钟街角 · 示例04",
+      "raw_name": "时钟街角 · 示例04",
+      "raw_title": "时钟街角 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者3",
+      "circle": "虚构作者3",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 45"
+      ],
+      "date": "2026-10-24",
+      "publish_date": "2026-10-24",
+      "date_short": "10/24",
+      "date_label": "2026年10月24日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-24",
+      "category_raw": "2026-10-24",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "723M",
+      "size_mb": 144,
+      "size": 144,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-1/files",
+      "quark_url": "https://example.invalid/demo/collection-1/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 45,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "时钟街角 · 示例04 ITEM-0045 虚构作者3 随笔 电子笔记 默认 演示 观察 Example 45"
+    },
+    {
+      "id": "DEMO-0046",
+      "code": "ITEM-0046",
+      "name": "月光地图 · 示例04",
+      "title": "月光地图 · 示例04",
+      "raw_name": "月光地图 · 示例04",
+      "raw_title": "月光地图 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者4",
+      "circle": "虚构作者4",
+      "genre": "小说",
+      "main_genre": "小说",
+      "platform": "纸质与电子",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "文学"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构书单"
+      ],
+      "perks": [
+        "附阅读笔记"
+      ],
+      "cheats": [],
+      "aliases": [
+        "Example 46"
+      ],
+      "date": "2026-10-23",
+      "publish_date": "2026-10-23",
+      "date_short": "10/23",
+      "date_label": "2026年10月23日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-23",
+      "category_raw": "2026-10-23",
+      "sheet": "虚构书单",
+      "zone": "sheet-0",
+      "zone_icon": "✦",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构书单",
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-0",
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "269M",
+      "size_mb": 145,
+      "size": 145,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-2/files",
+      "quark_url": "https://example.invalid/demo/collection-2/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 46,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "月光地图 · 示例04 ITEM-0046 虚构作者4 小说 纸质与电子 默认 演示 文学 Example 46"
+    },
+    {
+      "id": "DEMO-0047",
+      "code": "ITEM-0047",
+      "name": "风车课堂 · 示例04",
+      "title": "风车课堂 · 示例04",
+      "raw_name": "风车课堂 · 示例04",
+      "raw_title": "风车课堂 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者5",
+      "circle": "虚构作者5",
+      "genre": "电影",
+      "main_genre": "电影",
+      "platform": "数字影像",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "剧情"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "虚构影单"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 47"
+      ],
+      "date": "2026-10-22",
+      "publish_date": "2026-10-22",
+      "date_short": "10/22",
+      "date_label": "2026年10月22日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-22",
+      "category_raw": "2026-10-22",
+      "sheet": "虚构影单",
+      "zone": "sheet-1",
+      "zone_icon": "▤",
+      "sheet_type": "default",
+      "category_sheets": [
+        "虚构影单"
+      ],
+      "category_zones": [
+        "sheet-1"
+      ],
+      "source_schema": "structured",
+      "size_str": "322M",
+      "size_mb": 146,
+      "size": 146,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-3/files",
+      "quark_url": "https://example.invalid/demo/collection-3/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 47,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "风车课堂 · 示例04 ITEM-0047 虚构作者5 电影 数字影像 默认 演示 剧情 Example 47"
+    },
+    {
+      "id": "DEMO-0048",
+      "code": "ITEM-0048",
+      "name": "海岸图集 · 示例04",
+      "title": "海岸图集 · 示例04",
+      "raw_name": "海岸图集 · 示例04",
+      "raw_title": "海岸图集 · 示例04",
+      "version": "v1.0",
+      "author": "虚构作者6",
+      "circle": "虚构作者6",
+      "genre": "随笔",
+      "main_genre": "随笔",
+      "platform": "电子笔记",
+      "translation": "默认",
+      "tags": [
+        "演示",
+        "观察"
+      ],
+      "play_tags": [],
+      "theme_tags": [],
+      "types": [
+        "阅读与观影笔记"
+      ],
+      "perks": [],
+      "cheats": [],
+      "aliases": [
+        "Example 48"
+      ],
+      "date": "2026-10-21",
+      "publish_date": "2026-10-21",
+      "date_short": "10/21",
+      "date_label": "2026年10月21日",
+      "month_batch": "2026年10月",
+      "zone_sub": "2026年10月",
+      "category": "2026-10-21",
+      "category_raw": "2026-10-21",
+      "sheet": "阅读与观影笔记",
+      "zone": "sheet-2",
+      "zone_icon": "◈",
+      "sheet_type": "default",
+      "category_sheets": [
+        "阅读与观影笔记"
+      ],
+      "category_zones": [
+        "sheet-2"
+      ],
+      "source_schema": "structured",
+      "size_str": "363M",
+      "size_mb": 147,
+      "size": 147,
+      "notes": "原创虚构演示条目；链接仅为示意，不可下载。",
+      "updated": false,
+      "is_update": false,
+      "update_summary": "",
+      "version_date": "",
+      "baidu_url": "https://example.invalid/demo/collection-4/files",
+      "quark_url": "https://example.invalid/demo/collection-4/folders",
+      "web_info": {},
+      "source_checks": {},
+      "source": "",
+      "source_id": "",
+      "palette": [
+        "#deece9",
+        "#367669"
+      ],
+      "symbol": "✦",
+      "row_num": 48,
+      "region_locked": false,
+      "is_hang": false,
+      "is_heji": false,
+      "quark_location_status": "not_found",
+      "search": "海岸图集 · 示例04 ITEM-0048 虚构作者6 随笔 电子笔记 默认 演示 观察 Example 48"
+    }
+  ],
+  "collections": [
+    {
+      "id": "C01",
+      "label": "纸上书架",
+      "baidu": "https://example.invalid/demo/collection-1/files",
+      "quark": "https://example.invalid/demo/collection-1/folders",
+      "quark_folders": {}
+    },
+    {
+      "id": "C02",
+      "label": "周末影单",
+      "baidu": "https://example.invalid/demo/collection-2/files",
+      "quark": "https://example.invalid/demo/collection-2/folders",
+      "quark_folders": {}
+    },
+    {
+      "id": "C03",
+      "label": "城市阅读",
+      "baidu": "https://example.invalid/demo/collection-3/files",
+      "quark": "https://example.invalid/demo/collection-3/folders",
+      "quark_folders": {}
+    },
+    {
+      "id": "C04",
+      "label": "纪录片手记",
+      "baidu": "https://example.invalid/demo/collection-4/files",
+      "quark": "https://example.invalid/demo/collection-4/folders",
+      "quark_folders": {}
+    }
+  ],
+  "covers": {
+    "DEMO-0001": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDE8L3RleHQ+PC9zdmc+",
+    "DEMO-0002": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDI8L3RleHQ+PC9zdmc+",
+    "DEMO-0003": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDM8L3RleHQ+PC9zdmc+",
+    "DEMO-0004": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDQ8L3RleHQ+PC9zdmc+",
+    "DEMO-0005": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDU8L3RleHQ+PC9zdmc+",
+    "DEMO-0006": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDY8L3RleHQ+PC9zdmc+",
+    "DEMO-0007": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDc8L3RleHQ+PC9zdmc+",
+    "DEMO-0008": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDg8L3RleHQ+PC9zdmc+",
+    "DEMO-0009": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMDk8L3RleHQ+PC9zdmc+",
+    "DEMO-0010": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTA8L3RleHQ+PC9zdmc+",
+    "DEMO-0011": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTE8L3RleHQ+PC9zdmc+",
+    "DEMO-0012": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTI8L3RleHQ+PC9zdmc+",
+    "DEMO-0013": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTM8L3RleHQ+PC9zdmc+",
+    "DEMO-0014": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTQ8L3RleHQ+PC9zdmc+",
+    "DEMO-0015": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTU8L3RleHQ+PC9zdmc+",
+    "DEMO-0016": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTY8L3RleHQ+PC9zdmc+",
+    "DEMO-0017": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTc8L3RleHQ+PC9zdmc+",
+    "DEMO-0018": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTg8L3RleHQ+PC9zdmc+",
+    "DEMO-0019": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMTk8L3RleHQ+PC9zdmc+",
+    "DEMO-0020": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjA8L3RleHQ+PC9zdmc+",
+    "DEMO-0021": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjE8L3RleHQ+PC9zdmc+",
+    "DEMO-0022": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjI8L3RleHQ+PC9zdmc+",
+    "DEMO-0023": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjM8L3RleHQ+PC9zdmc+",
+    "DEMO-0024": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjQ8L3RleHQ+PC9zdmc+",
+    "DEMO-0025": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjU8L3RleHQ+PC9zdmc+",
+    "DEMO-0026": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjY8L3RleHQ+PC9zdmc+",
+    "DEMO-0027": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjc8L3RleHQ+PC9zdmc+",
+    "DEMO-0028": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjg8L3RleHQ+PC9zdmc+",
+    "DEMO-0029": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMjk8L3RleHQ+PC9zdmc+",
+    "DEMO-0030": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzA8L3RleHQ+PC9zdmc+",
+    "DEMO-0031": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzE8L3RleHQ+PC9zdmc+",
+    "DEMO-0032": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzI8L3RleHQ+PC9zdmc+",
+    "DEMO-0033": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzM8L3RleHQ+PC9zdmc+",
+    "DEMO-0034": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzQ8L3RleHQ+PC9zdmc+",
+    "DEMO-0035": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzU8L3RleHQ+PC9zdmc+",
+    "DEMO-0036": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzY8L3RleHQ+PC9zdmc+",
+    "DEMO-0037": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzc8L3RleHQ+PC9zdmc+",
+    "DEMO-0038": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzg8L3RleHQ+PC9zdmc+",
+    "DEMO-0039": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwMzk8L3RleHQ+PC9zdmc+",
+    "DEMO-0040": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDA8L3RleHQ+PC9zdmc+",
+    "DEMO-0041": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDE8L3RleHQ+PC9zdmc+",
+    "DEMO-0042": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDI8L3RleHQ+PC9zdmc+",
+    "DEMO-0043": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzMzdkNzkiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDM8L3RleHQ+PC9zdmc+",
+    "DEMO-0044": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1NzU3YTQiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDQ8L3RleHQ+PC9zdmc+",
+    "DEMO-0045": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiNiYTcxM2QiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDU8L3RleHQ+PC9zdmc+",
+    "DEMO-0046": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMzZjcxOWUiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDY8L3RleHQ+PC9zdmc+",
+    "DEMO-0047": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4ZjU2ODAiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDc8L3RleHQ+PC9zdmc+",
+    "DEMO-0048": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiB2aWV3Qm94PSIwIDAgMjAwIDE0MCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM1OTdiNDIiLz48Y2lyY2xlIGN4PSIxNjAiIGN5PSIyNSIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii4xOCIvPjxwYXRoIGQ9Ik0wIDEyMEw2NSA0M0wxNDUgMTQwSDBaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMyIvPjx0ZXh0IHg9IjE4IiB5PSIxMDkiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiI+SVRFTSAwNDg8L3RleHQ+PC9zdmc+"
+  },
+  "coverSources": {},
+  "privateNotes": {},
+  "rankings": [
+    {
+      "id": "rank-demo",
+      "title": "本月精选榜",
+      "period": "2026年11月",
+      "published": true,
+      "note": "虚构示例，排序可自由调整",
+      "tiers": [
+        {
+          "name": "推荐",
+          "items": [
+            {
+              "id": "DEMO-0001",
+              "score": "90",
+              "note": "原创示例"
+            },
+            {
+              "id": "DEMO-0002",
+              "score": "89",
+              "note": "原创示例"
+            },
+            {
+              "id": "DEMO-0003",
+              "score": "88",
+              "note": "原创示例"
+            },
+            {
+              "id": "DEMO-0004",
+              "score": "87",
+              "note": "原创示例"
+            },
+            {
+              "id": "DEMO-0005",
+              "score": "86",
+              "note": "原创示例"
+            }
+          ]
+        },
+        {
+          "name": "值得一看",
+          "items": [
+            {
+              "id": "DEMO-0006",
+              "score": "85",
+              "note": ""
+            },
+            {
+              "id": "DEMO-0007",
+              "score": "85",
+              "note": ""
+            },
+            {
+              "id": "DEMO-0008",
+              "score": "85",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "regions": []
+    }
+  ],
+  "monthLists": [
+    {
+      "id": "month-demo",
+      "title": "11月阅读与观影",
+      "period": "2026年11月",
+      "published": true,
+      "lines": [
+        {
+          "type": "item",
+          "id": "DEMO-0001",
+          "raw": "星河手记 · 示例01",
+          "text": "星河手记 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0002",
+          "raw": "山间邮局 · 示例01",
+          "text": "山间邮局 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0003",
+          "raw": "纸上花园 · 示例01",
+          "text": "纸上花园 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0004",
+          "raw": "晨光工坊 · 示例01",
+          "text": "晨光工坊 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0005",
+          "raw": "小岛漫游 · 示例01",
+          "text": "小岛漫游 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0006",
+          "raw": "云端画室 · 示例01",
+          "text": "云端画室 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0007",
+          "raw": "森林来信 · 示例01",
+          "text": "森林来信 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0008",
+          "raw": "沙丘笔记 · 示例01",
+          "text": "沙丘笔记 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0009",
+          "raw": "时钟街角 · 示例01",
+          "text": "时钟街角 · 示例01"
+        },
+        {
+          "type": "item",
+          "id": "DEMO-0010",
+          "raw": "月光地图 · 示例01",
+          "text": "月光地图 · 示例01"
+        }
+      ]
+    }
+  ],
+  "sourceConfig": {
+    "steam": {
+      "enabled": false
+    },
+    "bangumi": {
+      "enabled": false
+    },
+    "custom_sources": []
+  },
+  "refSites": []
+}

@@ -1,0 +1,9 @@
+// 只展示当前资料与已保存状态，不在打开时联网。
+function todoRecordSnapshot(){return Object.fromEntries(cards.map(r=>[r.id,JSON.stringify([r.name,r.version,r.date,r.author,r.genre,r.platform,r.translation,r.tags,r.notes,r.baidu_url,r.quark_url,r.web_info,(project.covers||{})[r.id],(project.coverOff||{})[r.id]])]));}
+let todoSavedRecords=todoRecordSnapshot();
+function todoCounts(){const base=project.todoExportRecords||{},ids=new Set([...Object.keys(base),...Object.keys(todoSavedRecords)]);return {missing:recentCards().filter(r=>!coverStore()[r.id]&&!autoCoverUrl(r)).length,unpublished:project.todoExportRecords?[...ids].filter(id=>base[id]!==todoSavedRecords[id]).length:0,changed:history.done.length,quark:moduleEnabled('quark')?cards.filter(r=>r.quark_location_status==='ambiguous').length:0,issues:Object.keys(project.quarkIssueTodos||{}).length};}
+function markTodoSaved(){todoSavedRecords=todoRecordSnapshot();renderTodo();}
+function markTodoExported(){project.todoExportRecords=todoRecordSnapshot();todoSavedRecords=todoRecordSnapshot();markDirty();renderTodo();}
+const todoBar=document.createElement('aside');todoBar.className='today-todo';document.querySelector('.tabs').before(todoBar);
+function renderTodo(){const n=todoCounts();todoBar.innerHTML='<b>待办</b>'+[['missing',`缺封面 ${n.missing} 条`],['quark',`文件夹待确认 ${n.quark} 条`],['issues',`链接待处理 ${n.issues} 条`],['unpublished',`${n.unpublished} 条已保存未导出`],['changed',`${n.changed} 步可撤销修改`]].filter(([key])=>n[key]).map(([key,label])=>`<button data-todo="${key}">${label}</button>`).join('');todoBar.hidden=!Object.values(n).some(Boolean);}
+todoBar.onclick=event=>{const key=event.target.closest('[data-todo]')?.dataset.todo;if(key==='missing')showTab('health');if(key==='quark')showTab('collections');if(key==='issues')openIssueTodos();if(key==='unpublished')$('exportBtn').click();};onChange(renderTodo);renderTodo();

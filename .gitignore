@@ -1,0 +1,15 @@
+dist/
+.planning/
+.superpowers/
+__pycache__/
+*.pyc
+.DS_Store
+日志/
+备份/
+表格/
+.instance.json
+tools/vendor/python-*-embed-amd64.zip
+tools/vendor/python-*-embeddable-*.zip
+local-config.json
+
+.folder-scan-progress.json*

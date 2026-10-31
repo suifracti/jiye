@@ -1,0 +1,126 @@
+{
+  "schema": "jiye-demo-v1",
+  "meta": {
+    "input_name": "集页空白目录",
+    "title": "集页空白目录",
+    "collection_key": "jiye-blank-v1",
+    "update_date": "",
+    "is_demo": false,
+    "password": "",
+    "warning": "",
+    "notice": "",
+    "extract_guide": "请只整理和分享你有权使用的内容。",
+    "row2_body": "请按自己的资源填写使用说明。",
+    "row5_steps": [
+      {
+        "title": "找到作品",
+        "body": "用目录编号和筛选找到想查看的条目。"
+      },
+      {
+        "title": "查看合集",
+        "body": "演示链接不可访问，自己的资源链接可在母版配置。"
+      },
+      {
+        "title": "阅读说明",
+        "body": "按自己的条目填写说明与附件。"
+      }
+    ],
+    "row4_modules": [
+      {
+        "title": "找到作品",
+        "body": "用目录编号和筛选找到想查看的条目。"
+      },
+      {
+        "title": "查看合集",
+        "body": "演示链接不可访问，自己的资源链接可在母版配置。"
+      },
+      {
+        "title": "阅读说明",
+        "body": "按自己的条目填写说明与附件。"
+      }
+    ],
+    "row5_template": {
+      "steps": [
+        {
+          "title": "找到作品",
+          "body": "用目录编号和筛选找到想查看的条目。"
+        },
+        {
+          "title": "查看合集",
+          "body": "演示链接不可访问，自己的资源链接可在母版配置。"
+        },
+        {
+          "title": "阅读说明",
+          "body": "按自己的条目填写说明与附件。"
+        }
+      ],
+      "文档链接": "",
+      "更新链接": "",
+      "更新标题": "更新动态"
+    },
+    "ui_config": {
+      "theme": "eye",
+      "show_background": false,
+      "background_url": "",
+      "background_mobile_url": "",
+      "show_covers": true,
+      "show_hero": true,
+      "show_random": false,
+      "hero_title": "我的目录",
+      "hero_subtitle": "添加自己的第一条内容",
+      "hero_style": "compact",
+      "eyebrow": "离线目录 · 随心整理",
+      "footer_text": "集页 · 只整理你有权分享的内容",
+      "sidebar_text": "原创演示目录",
+      "show_nav_cards": true,
+      "doc_title": "使用指南",
+      "doc_subtitle": "查看目录说明",
+      "doc_url": "",
+      "guide_title": "使用指南",
+      "guide_subtitle": "查看目录说明",
+      "contact_title": "更新动态",
+      "contact_subtitle": "了解目录变化",
+      "contact_url": "",
+      "allow_remote_images": false,
+      "doc_image": "",
+      "contact_image": "",
+      "hero_image": "",
+      "logo_image": "",
+      "stale_days": 0,
+      "enable_export": true
+    },
+    "latest_catalog_url": "",
+    "top_notice": {
+      "text": "",
+      "visible": false,
+      "copyable": false
+    },
+    "version_types": [
+      {
+        "name": "默认",
+        "color": "#367669"
+      }
+    ],
+    "modules": {
+      "downloads": false,
+      "quark": false
+    }
+  },
+  "records": [],
+  "collections": [],
+  "covers": {},
+  "coverSources": {},
+  "privateNotes": {},
+  "rankings": [],
+  "monthLists": [],
+  "sourceConfig": {
+    "steam": {
+      "enabled": false
+    },
+    "bangumi": {
+      "enabled": false
+    },
+    "custom_sources": []
+  },
+  "refSites": []
+}

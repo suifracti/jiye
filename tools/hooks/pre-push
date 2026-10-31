@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+repo=$(git rev-parse --show-toplevel)
+python3 -I "$repo/tools/check_clean.py" "$repo"
+checker=$(git config --get jiye.privateChecker || git config --get panlu.privateChecker || true)
+if [ -n "$checker" ]; then
+  python3 -I "$checker" "$repo"
+fi

@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const ctx=vm.createContext({window:{},URL});
+const code=fs.existsSync('src/reader/reader-config.js')?fs.readFileSync('src/reader/reader-config.js','utf8'):'window.JiyeReaderConfig={field:()=>({label:"旧字段"})};';
+vm.runInContext(code,ctx);const api=ctx.window.JiyeReaderConfig;
+assert.equal(api.field({},'author').label,'作者','通用字段默认名');
+const meta={field_config:{author:{label:'导演',visible:false}},version_types:[{name:'修订版',color:'#336699',values:['v2']}],modules:{downloads:true}};
+assert.equal(api.field(meta,'author').label,'导演');assert.equal(api.field(meta,'author').visible,false);
+assert.equal(api.versionType({},{}).name,'默认');assert.equal(api.versionType({},{translation:'作者自定义版'}).name,'作者自定义版');assert.equal(api.versionType(meta,{translation:'v2'}).name,'修订版');
+assert.equal(api.versionType({version_types:[{name:'安全颜色',color:'url(secret)'}]},{}).color,'#64748b');
+assert.equal(api.downloads({}, {baidu_url:'https://example.invalid/a'}).length,0,'下载模块默认关闭');
+assert.equal(api.downloads(meta,{baidu_url:'https://example.invalid/a',quark_url:'javascript:alert(1)'}).length,1);
+const row={source_id:'BOOK-789',aliases:['合成别名'],web_info:{identifiers:{isbn:'978000000001'},links:[{source:'资料库',id:'MOVIE-42'}]}};
+assert.ok(api.sourceIds(row).includes('978000000001'));assert.ok(api.sourceIds(row).includes('MOVIE-42'));
+assert.equal(api.topNotice({}).visible,false);assert.equal(api.topNotice({top_notice:{visible:true,text:'开放日',copyable:false}}).copyable,false);
+assert.deepEqual(Array.from(api.tags({genre:'书籍',platform:'纸本+电子',translation:'修订版',tags:['书籍','电子','修订版','旅行']})),['旅行']);
+console.log('通用reader字段、版本类型、默认离线与来源编号配置通过');
